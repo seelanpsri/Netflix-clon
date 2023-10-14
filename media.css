@@ -1,0 +1,354 @@
+
+@media only screen and (max-width: 600px) {
+        body {
+          font-size: 12px; /* Adjust the base font size for smaller screens */
+          overflow-x: hidden;
+          user-select: none;
+        }
+        .sec-first{
+          height:550px;
+          
+        }
+        section{
+          overflow-x: hidden;
+
+        }
+      .sections{
+        height:500px
+      }
+        .nav {
+          height: auto;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0px;
+          margin-bottom:40px;
+        }
+        .nav img{
+            width:100px;
+            height:70px;
+            margin-left: 0px;
+        }
+        .nav .side .lang{
+          width:50px;
+          padding: 10px;
+          margin-right: 0px;
+          
+        }
+        .nav .side .lang h1{
+            display: none;
+        }
+        .nav .side .lang img{
+            width:13px;
+            height:15px
+        }
+      
+        .nav .side {
+          padding: 0px;
+          margin-right: 20px;
+        }
+        .nav .side .sign-in{
+          margin-right: 0px;
+        }
+        .first-content{
+          display: flex;
+          padding: 20px;
+          text-align: center;
+          height:auto
+          
+        }
+        .first-content .main{
+          overflow: hidden;
+          width:100%;
+          font-size: 23px;
+        }
+        .first-content .inner-content{
+          width:310px;
+          font-size: 16px;
+        }
+        .first-content .inner-content-two{
+          width:310px;
+          font-size: 16px;
+        }
+        .first-content .mail-input{
+        width:310px;
+        height:100px;
+        }
+        .first-content .mail-input .enter-box{
+          display: block;
+        }
+        .first-content .mail-input .enter-box input{
+          height:40px;
+          width:250px;
+          margin-bottom: 20px;
+        }
+        .first-content .mail-input .enter-box p{
+          left:40px;
+          top:10px;
+          font-size: 14px;
+        }
+        .first-content .mail-input .enter-box label{
+          font-size: 16px;
+          font-weight: 500;
+          width:150px;
+          height:40px;
+          transform: translateX(70px);
+        }
+        /* ----------2---------------------------------------- */
+        .container1{
+         display: flex;
+         flex-direction:column;
+         align-items: center;
+         padding: 15px;
+         height: auto;
+         width:100%;
+         overflow: hidden;
+        }
+        .container1 .left{
+          width:100%;
+          height: auto;
+          margin-top:20px;
+        }
+        .container1 .left .con1{
+          width:100%;
+          font-size: 30px;
+          text-align: center;
+        }
+        .container1 .left .con2{
+          width:100%;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: center;
+        }
+        .container1 .right {
+          display:flex;
+          justify-content: center;
+          height:auto
+        }
+        .container1 .right img{
+          width:70%;
+         margin:0px;
+         height:auto;
+         
+        }
+        .container1 .right video{
+          height:70%;
+          width:51%;
+          top:37px;
+          left:24.5%;
+          
+        }
+        /* ------------------------------3------------- */
+        .container2{
+          width:100%;
+          flex-direction: column;
+          flex-flow: column-reverse;
+          margin:0px;
+          padding:15px;
+        }
+        .container2 .img-div{
+          margin:0px;
+          padding:0px;
+          height:auto;
+          width:100%;
+          display: flex;
+          justify-content: center;
+
+        }
+        .container2 .img-div img{
+          width:80%;
+          height:auto;
+          margin:0px
+
+        }
+        .container2 .img-div .book{
+          height:50px;
+          width:220px;
+          left:15%;
+          justify-content: space-between;
+        }
+        .container2 .img-div .book .book-left img{
+          height:40px;
+          width:30px;
+        }
+        .container2 .img-div .book .book-left  .in h1{
+          font-size: 12px;
+        }
+        .container2 .img-div .book .book-left .in p{
+          font-size: 10px;
+        }
+        .container2 .img-div .book .book-right img{
+          height:30px;
+          width:30px;
+        }
+        .container2 .img-div .book .book-right{
+          display: flex;
+          justify-content: flex-end;
+        }
+        .container2 .content-div{
+          height:auto;
+          width:310px;
+          margin-top: 30px;
+        }
+        .container2 .content-div .con3{
+          font-size: 30px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .container2 .content-div .con4{
+          font-size: 18px;
+          font-weight: 400;
+          text-align: center;
+        }
+        /* -------------------4-------------------------- */
+        .container3{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin:0px;
+          padding:0px;
+          width:100%;
+          height:100%;
+          padding:15px;
+        }
+        .container3 .content-div2{
+          height:auto;
+          width:100%;
+          margin:0px;
+          margin-bottom:20px;
+        }
+        .container3 .content-div2 .con5{
+          width:100%;
+          height:auto;
+          font-size: 30px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .container3 .content-div2 .con6{
+          width:100%;
+          height:auto;
+          font-size: 18px;
+          text-align: center;
+        }
+      .container3 .img-div2 {
+        width:100%;
+        height:auto;
+        display: flex;
+        justify-content: center;
+        
+      }
+      .container3 .img-div2 img{
+        margin:0px;
+      }
+      .container3 .img-div2 video{
+        height:auto;
+        width:60%;
+        left:20%;
+        top:10%;
+      }
+      /* ---------------------5........------------------... */
+      .container4{
+        flex-direction: column;
+        flex-flow: column-reverse;
+        margin: 0px;
+        padding: 15px;
+        width:100%;
+      }
+      .container4 .content-div3{
+        height:auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+
+      }
+      .container4 .content-div3 .con7{
+        width:100%;
+        font-size:25px;
+        text-align: center;
+      }
+
+      
+      .container4 .content-div3 .con8{
+        width:100%;
+        height:auto;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .container4 .img-div3{
+        height:auto;
+        width:100%;
+      }
+      .container4 .img-div3 img{
+        margin:0px
+      }
+      /* ----------5------------------ */
+      .section5{
+        height:auto;
+      }
+      .container5 .questions{
+        width:310px;
+        height:auto;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      .container5 .question-container{
+        width:310px;
+
+      }
+      
+      .question-container .question .question-active .left-question{
+        font-size: 16px;
+      }
+      .question-container .question .question-active .plus{
+        font-size: 40px;
+      }
+      .container5 .question .answer{
+         font-size: 16px;
+      }
+      .container5-last .ready{
+        width:310px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+      }
+      .container5-last .mail-input{
+        margin-bottom:30px;
+      }
+      .container5-last .mail-input .enter-box{
+        height:100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .container5-last .mail-input .enter-box input{
+        height:40px;
+        width:250px;
+        margin-bottom: 10px;
+      }
+      .container5-last .mail-input .enter-box label{
+        width:150px;
+        height:40px;
+        font-size: 16px;
+      }
+      .container5-last .mail-input .enter-box p{
+        left:160px;
+        top:10px;
+        font-size: 14px;
+        font-weight:400;
+      }
+      /* ------------last-------------- */
+      .container6{
+        padding:20px;
+        font-weight: 500;
+      }
+      .path{
+        width:100px
+      }
+      li{
+        margin-bottom: 10px;
+      }
+}

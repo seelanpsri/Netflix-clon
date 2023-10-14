@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    user-select: none;
+}
+body{
+    width:100%;
+    background-color: rgb(29, 26, 26);
+}
+.sec-first{
+    margin-top: 0px;
+    height:700px;
+    width:100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8352591036414566) 0%, rgba(8,8,8,0.30584733893557425) 44%, rgba(0,0,0,0.9360994397759104) 100%),url(images/profile.jpg);
+        
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    padding: 10px;
+}
+img{
+    width:16%;
+    height:70px;
+     height:auto;
+     margin-left: 7%;
+  
+}
+.side{
+    display:flex;
+    margin-right:10%;
+}
+.side .lang,.sign-in{
+    width: 140px;
+    margin:10px;
+    font-size:16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:1px solid white;
+    height:30px;
+    padding:5px 10px 5px 0px;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0,0.3);
+
+}
+.side .lang h1{
+    font-size: 16px;
+}
+.side .lang img{
+    width:20px;
+    filter: invert(100%);
+    margin-right: 10px;
+}
+.side .sign-in{
+    background-color: red;
+    width:80px;
+    padding-left:10px;
+    border:none;
+    outline:none;
+    align-items: center;
+}
+.first-content{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.first-content h1{
+    font-size:3.5vw;
+    padding:20px;
+}
+.first-content p{
+    font-size:25px;
+    font-weight:500;
+    margin-bottom: 20px;
+}
+.first-content .inner-content-two{
+    font-size: 20px;
+}
+ .mail-input{
+    height:60px;
+    width:550px;
+    position: relative;
+    border-radius: 5px;
+
+}
+ .mail-input .enter-box{
+    display: flex;
+    height:100%;
+    width:100%;
+}
+ .mail-input .enter-box p{
+    position: absolute;
+    left:15px;
+    top:15px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s linear ;
+}
+.mail-input .enter-box p.move-up{
+    transform: translatey(-10px) translateX(-5px);
+    font-size: 10px;
+}
+ .mail-input .enter-box  input{
+    width:350px;
+    height:100%;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0,0.4);
+    border:1px solid white;
+    padding:10px;
+
+}
+ .mail-input .enter-box label{
+    flex:1;
+    background-color: rgb(255, 0, 0);
+    margin-left:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    font-weight:700;
+    border-radius: 5px;
+}
+ .mail-input .enter-box label ion-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    font-weight: 600;
+}
